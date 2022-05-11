@@ -22,7 +22,7 @@ top.window.outerWidth = screen.availWidth;
 //-->
 </script>
 
-<!--<script LANGUAGE="JavaScript">
+/*<script LANGUAGE="JavaScript">
 function Validar(form)
 {
   if (form.T1.value == "")
@@ -33,7 +33,7 @@ function Validar(form)
 
   form.submit();
 }
-</script>-->
+</script>*/
 <style type="text/css">
   #carga {
   font-family: Arial, Helvetica, sans-serif;

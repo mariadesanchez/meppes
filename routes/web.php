@@ -18,11 +18,11 @@ use App\Models\Receta;
 
 Route::get('/', function () {
      $user= Auth::user();
-    /* $recetas=App\Models\Receta::all();*/
+    $recetas=App\Models\Receta::all();
     
 
    
-    return view('home',compact('user'));
+    return view('home',compact('user','recetas'));
 });
 Route::get('afiliado', function () {
     return view('afiliado');

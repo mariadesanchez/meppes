@@ -124,8 +124,8 @@ return (key <= 13 || (key >= 48 && key <= 57)
       </tr>
       <tr>
         <td align="right">Contraseña:</td>
-        <td>&nbsp;<input type="password" name="T2"value="00362018" size="10" maxlength=8></td>
-        <input type='hidden' name='codfar' value='11403'>
+        <td>&nbsp;<input type="password" name="T2"value="00000000" size="10" maxlength=8></td>
+        <input type='hidden' name='codfar' value='11111'>
         <input type='hidden' name='cod_auto' size='11' value="5446932-4" maxlength='11' onKeyPress="return acceptNumGuiEspa(event)">&nbsp;
 
 
